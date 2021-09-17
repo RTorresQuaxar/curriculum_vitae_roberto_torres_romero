@@ -1,7 +1,7 @@
 <?php include("includes/header.php")?>
 
 
-
+<a name= perfil></a>
 <main class = "main"> 
 <div class="info-content">
     <img src="images/imagen.png" alt = "Foto de perfil">
@@ -13,7 +13,7 @@
  </div>
 </main>
 </div>
-
+<a name= educacion></a>
 <div class="educacion">
     <img src="images/universidad.png" alt="instalaciones UV Campus Coatzacoalcos">
     <div class="educacion-info">
@@ -23,7 +23,7 @@
         
      </div>
 </div>
-
+<a name= trabajo></a>
 <div class="trabajo">
     <img src="images/clinica.png" alt="Veterinaria Los 2 Potrillos" style = "float:right">
     <div class="trabajo-info">
@@ -37,7 +37,7 @@
 
      </div>
 </div>
-
+<a name= skills></a>
 <div class="skills">
     <h2>Skills</h2>
 <div class="row">
@@ -73,7 +73,7 @@
  </div>
 
 
-
+ <a name= contacto></a>
 <div class="contacto">
 </head>
 <body>

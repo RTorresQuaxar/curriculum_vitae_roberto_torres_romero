@@ -15,11 +15,11 @@
     </div>
       <nav>
         <ul>
-          <li><a href="#"><strong>Perfil</strong></a></li> 
-          <li><a href="#"><strong>Formación educativa</strong></a></li>
-          <li><a href="#"><strong>Experiencia laboral</strong></a></li>
-          <li><a href="#"><strong>Skills</strong></a></li>
-          <li><a href="#"><strong>Contactos</strong></a></li>
+          <li><a href="#perfil"><strong>Perfil</strong></a></li> 
+          <li><a href="#educacion"><strong>Formación educativa</strong></a></li>
+          <li><a href="#trabajo"><strong>Experiencia laboral</strong></a></li>
+          <li><a href="#skills"><strong>Skills</strong></a></li>
+          <li><a href="#contacto"><strong>Contacto</strong></a></li>
         </ul>
       </nav>
     
