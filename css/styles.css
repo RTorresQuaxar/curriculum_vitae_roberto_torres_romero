@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  
+}
+
+.wrapper {
+  width: 100vw;
+  height: 90vh;
+  background-color: #585c68;
+  color: #fff;
+
+
+}
+
+.brand{
+  color: #17202A;
+  float: left;
+  padding: 10px 0;
+  
+
+}
+
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #17202A;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #17202A;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #5B2C6F;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.main{
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+
+}
+.h1{
+  font-size: 3em;
+}
+
+.main img{
+  width: 250px;
+  height: 320;
+
+}
+
+.educacion {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+
+}
+
+.educacion img{
+  width: 100%;
+  grid-column: 1/5;
+
+  
+}
+
+.educacion-info{
+  grid-column: 5/10;
+  padding: 2em;
+}
+
+.educacion-info h2{
+  font-size: 2em;
+  color: #585c68;
+}
+
+.educacion-info h3{
+  color: #585c68;
+}
+
+
+
+.trabajo{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  background-color: #585c68;
+}
+
+.trabajo h1{
+  font-size: 3em;
+}
+
+
+.trabajo img{
+  width: 100%;
+  grid-column: 1/5;
+
+}
+
+.trabajo-info h2{
+  font-size: 2em;
+  color: #fff;
+  
+}
+.trabajo-info h3{
+  font-size: 1em;
+  color: #fff;
+  
+}
+
+.trabajo-info {
+grid-column: 5/10;
+padding: 2em;
+color: #fff;
+}
+
+
+.skills{
+  margin: 0 auto;
+  width: 95vw;
+  height: 50vh;
+  display: grid;
+
+
+}
+
+.skills h2{
+font-size: 2em;
+
+}
+
+.skills h3{
+  font-size: 1em; 
+}
+
+.progress{
+  height: 20px;
+  background : #171b3c;
+  border-radius: 20px;
+  border : 1px solid #000;
+  box-shadow: 0 2px 2px #4f4c4c;
+  margin-bottom: 40px;
+  overflow: visible;
+  position: relative;
+}
+  
+.progress .progress-bar{
+  border-radius: 20px;
+  border: 1px solid #000;
+  animation: animate-positive 2s;
+
+}
+
+.contacto form {
+	padding: 50px 20px;
+  width: 100vw;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-top: 28px;
+	margin-bottom: 30px;
+  float: left;
+  background-color: #585c68;
+}
+
+.contacto h1 {
+	text-align: left;
+	padding: 12px;
+	color: #fff
+}
+
+.contacto input {
+	width: 50%;
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+  
+}
+
+.contacto input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: 50%;
+	margin: 0;
+	margin-top: 22px;
+	border: none;
+
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+  background-color: #a1e622;
+	color: #fff;
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff;
+}
+
+.contacto img{
+  margin-right: 250px;
+  
+ 
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+
+footer{
+  align-self: flex end;
+  background-color: rgba(120,120,120, .5);
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+}
