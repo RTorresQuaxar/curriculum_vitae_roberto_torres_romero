@@ -8,7 +8,7 @@
     <h1>Roberto Torres</h1>
     <p> Mi nombre es Roberto Torres Romero, tengo <strong>21 años</strong> y soy Ingeniero de Software.<br>
     <strong>Perfil Profesional: </strong> Me considero una persona responsable y dinámica, con capacidad de adaptación y capacidades para trabajar en equipo.<br>
-    <strong>Perfil Profesional: </strong> Poner en práctica todos los conocimientos adquiridos durante la universidad y poder formar parte de un equipo de desarrollo.<br>
+    <strong>Objetivo Profesional: </strong> Poner en práctica todos los conocimientos adquiridos durante la universidad y poder formar parte de un equipo de desarrollo.<br>
     <p>
  </div>
 </main>
